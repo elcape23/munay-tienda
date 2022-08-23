@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Champagne;
+  src: url(../../Assets/fonts/Champagne\ &\ Limousines.ttf);
+}
+
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+  .masterButton {
+    width: 85vw;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .countButton {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+  }
+
+  .addButton {
+    height: 30%;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .countText {
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    font-family: Champagne;
+    opacity: 0.6;
+  }
+
+  .addCart {
+    align-self: center;
+    height: 100%;
+    width: 70%;
+    position: relative;
+  }
+
+  .add-cart-link {
+    justify-content: right;
+  }
+
+  .addCartButton {
+    font-family: Champagne;
+    font-size: 18px;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    opacity: 0.9;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .itemAmount {
+    font-size: medium;
+    color: black;
+    font-family: Champagne;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

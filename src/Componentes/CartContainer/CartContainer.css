@@ -1,0 +1,76 @@
+.cart-container {
+  width: 100vw;
+}
+
+.cart-orders {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-line-div {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  opacity: 0.6;
+}
+
+.cart-title {
+  text-align: center;
+}
+
+.cart-selected-product-div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #edeae5;
+}
+
+.cart-selected-product {
+  width: 100%;
+  position: relative;
+  margin-left: 10px;
+}
+
+.cart-selected-product-image {
+  width: 20%;
+}
+
+.cart-selected-product-title {
+  font-family: Champagne;
+  font-size: 25px;
+}
+
+.cart-selected-product-count {
+  font-family: Champagne;
+  opacity: 0.4;
+}
+
+.cart-selected-product-total {
+  font-family: Champagne;
+  text-align: right;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.cart-selected-product-delete {
+  font-family: Champagne;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.cart-home-link {
+  font-family: Champagne;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 60%;
+  color: black;
+  opacity: 0.6;
+}
+
+.home-link:hover {
+  color: black;
+}

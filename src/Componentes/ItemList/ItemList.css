@@ -1,0 +1,19 @@
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    width: 100vw;
+  }
+  .selector-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .selector {
+    width: 80%;
+    height: 30px;
+    font-family: Champagne;
+    font-size: 18px;
+  }
+}

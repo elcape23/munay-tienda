@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Champagne;
+  src: url(../../Assets/fonts/Champagne\ &\ Limousines.ttf);
+}
+
+.category-detail-container {
+  width: 100vw;
+  height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-areas:
+    "bra conjunto"
+    "pijama pijama";
+  grid-template-rows: 230px 230px;
+  grid-template-columns: 50vw 50vw;
+}
+
+.bra-category-container {
+  grid-area: bra;
+  position: relative;
+}
+
+.bra-category-image {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.bra-category-arrow {
+  position: absolute;
+  width: 15%;
+  bottom: 3.5px;
+  left: 85px;
+  opacity: 0.6;
+}
+
+.bra-category-title {
+  font-family: Champagne;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.8;
+}
+
+.conjunto-category-container {
+  grid-area: conjunto;
+  position: relative;
+}
+
+.conjunto-category-image {
+  position: absolute;
+  width: 100%;
+}
+
+.conjunto-category-arrow {
+  position: absolute;
+  width: 15%;
+  bottom: 3.5px;
+  left: 75px;
+  opacity: 0.6;
+}
+
+.conjunto-category-title {
+  font-family: Champagne;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.8;
+}
+
+.pijama-category-container {
+  grid-area: pijama;
+  position: relative;
+}
+
+.pijama-category-image {
+  position: absolute;
+  width: 100%;
+}
+
+.pijama-category-arrow {
+  position: absolute;
+  width: 7.5%;
+  bottom: 3.5px;
+  left: 55px;
+  opacity: 0.6;
+}
+
+.pijama-category-title {
+  font-family: Champagne;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.8;
+}
